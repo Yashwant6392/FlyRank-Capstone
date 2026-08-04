@@ -6,33 +6,34 @@
 [![AI-Assisted](https://img.shields.io/badge/AI%20Assisted-Antigravity-purple.svg)](CLAUDE.md)
 
 > **FlyRank AI Internship Capstone Project**  
-> A professional open-source Node.js foundational repository built with modern engineering standards, clean architecture, and AI-assisted workflows.
+> A professional Node.js foundation project demonstrating AI-assisted development, clean Git workflows, and modern software engineering practices.
 
 ---
 
 ## Project Description
 
-FlyRank-Capstone serves as the foundational milestone project for the **FlyRank AI Internship Phase 1**. It demonstrates industry-standard open-source development practices, rigorous project setup, clean project architecture, structured guidelines for AI collaboration, and conventional git workflows.
+FlyRank-Capstone is a foundational project created for the **FlyRank AI Internship – Phase 1** assignment. It demonstrates professional project setup, AI-assisted development, Conventional Commits, and industry-standard repository organization.
 
 ---
 
 ## Objectives
 
-- **Node.js Setup**: Establish a clean Node.js workspace configured with modern standards and proper project metadata.
-- **Repository Architecture**: Maintain a clean, intuitive project structure ready for scalable development.
-- **AI Collaboration Standards**: Integrate comprehensive guidelines (`CLAUDE.md`) for seamless AI-human pair programming.
-- **Version Control Excellence**: Practice strict adherence to Conventional Commits for transparent version history.
-- **Open-Source Readiness**: Include essential open-source elements such as standard licensing, environment rules, and full setup guides.
+- Set up a professional Node.js development environment.
+- Create a clean and organized GitHub repository.
+- Practice AI-assisted software development.
+- Follow Conventional Commits for Git history.
+- Build a strong foundation for future project development.
 
 ---
 
 ## Tech Stack
 
-- **Runtime**: Node.js (v20+ LTS)
-- **Language**: JavaScript (ES6+ CommonJS)
-- **Package Manager**: npm
-- **Version Control**: Git
-- **Specification / Guidelines**: Conventional Commits & Open-Source Best Practices
+- **Runtime:** Node.js (v20 LTS)
+- **Language:** JavaScript (ES6+)
+- **Package Manager:** npm
+- **Version Control:** Git
+- **Editor:** Visual Studio Code
+- **AI Assistant:** Antigravity AI
 
 ---
 
@@ -40,12 +41,13 @@ FlyRank-Capstone serves as the foundational milestone project for the **FlyRank 
 
 ```text
 FlyRank-Capstone/
-├── .gitignore          # Git exclusion rules
-├── CLAUDE.md           # Developer guidelines and AI collaboration rules
-├── LICENSE             # MIT License file
-├── README.md           # Project documentation
-├── index.js            # Main execution script
-└── package.json        # Node.js project configuration and scripts
+├── .gitignore
+├── CLAUDE.md
+├── LICENSE
+├── README.md
+├── index.js
+├── package.json
+└── package-lock.json
 ```
 
 ---
@@ -54,44 +56,51 @@ FlyRank-Capstone/
 
 ### Prerequisites
 
-Ensure you have **Node.js** (v18.x or later) and **npm** installed on your system.
+Ensure the following are installed:
+
+- Node.js (v20 LTS or later)
+- npm
+- Git
+
+Check installation:
 
 ```bash
 node -v
 npm -v
+git --version
 ```
 
-### Steps
+### Clone Repository
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/FlyRank-Capstone.git
-   cd FlyRank-Capstone
-   ```
+```bash
+git clone https://github.com/Yashwant6392/FlyRank-Capstone.git
+cd FlyRank-Capstone
+```
 
-2. **Verify Node dependencies**:
-   ```bash
-   npm install
-   ```
+### Install Dependencies
+
+```bash
+npm install
+```
 
 ---
 
-## Usage & Verification
+## Usage
 
-To run the main application script:
+Run the application:
 
 ```bash
 npm start
 ```
 
-Or execute directly with Node.js:
+or
 
 ```bash
 node index.js
 ```
 
-### Verification
-When executed, the system outputs the setup confirmation message:
+Expected Output:
+
 ```text
 FlyRank AI Capstone setup completed successfully!
 ```
@@ -100,48 +109,53 @@ FlyRank AI Capstone setup completed successfully!
 
 ## Git Workflow
 
-This project enforces **Conventional Commits** to keep the git history clean and meaningful.
+This project follows the **Conventional Commits** specification.
 
-### Commit Types
-- `feat`: Standard feature addition
-- `docs`: Documentation updates
-- `fix`: Bug fixes
-- `refactor`: Code refactoring without functionality changes
-- `chore`: Maintenance tasks
+### Example Commit Messages
 
-### Example Commands
 ```bash
-git add .
 git commit -m "feat: initialize FlyRank capstone repository"
+git commit -m "docs: add README and CLAUDE guide"
+git commit -m "docs: improve README after AI review"
 ```
 
 ---
 
 ## AI Assistant Used
 
-- **AI Assistant**: Antigravity AI (Google DeepMind)
-- **Role**: AI Coding Assistant & Architectural Reviewer
-- **Contributions**: Automated project setup, standard guideline documentation (`CLAUDE.md`), README design, AI code review, and automated README enhancement.
+**Antigravity AI**
+
+Used for:
+
+- Project setup
+- Documentation generation
+- README review
+- Code assistance
+- Best practice recommendations
+- Development guidance
 
 ---
 
 ## Future Improvements
 
-- Integrate automated unit testing using standard frameworks (e.g., Jest / Vitest).
-- Add CI/CD workflows using GitHub Actions for automated linting and validation.
-- Implement environment variable management with `.env` validation.
-- Expand application functionality into core FlyRank domain services.
+- Add automated unit testing using Jest.
+- Configure GitHub Actions for Continuous Integration (CI).
+- Integrate ESLint and Prettier.
+- Add environment variable support using `.env`.
+- Expand the project into a complete AI-powered application.
 
 ---
 
 ## Author
 
-**FlyRank AI Intern**  
-- Email: intern@flyrank.ai  
-- GitHub: [@FlyRank](https://github.com/flyrank)
+**Yashwant Kumar**
+
+- GitHub: https://github.com/Yashwant6392
 
 ---
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for more information.
