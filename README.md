@@ -1,5 +1,10 @@
 # FlyRank-Capstone
 
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Commit Convention: Conventional](https://img.shields.io/badge/Conventional%20Commits-1.0.0-blue.svg)](https://www.conventionalcommits.org/)
+[![AI-Assisted](https://img.shields.io/badge/AI%20Assisted-Antigravity-purple.svg)](CLAUDE.md)
+
 > **FlyRank AI Internship Capstone Project**  
 > A professional open-source Node.js foundational repository built with modern engineering standards, clean architecture, and AI-assisted workflows.
 
@@ -71,7 +76,7 @@ npm -v
 
 ---
 
-## Usage
+## Usage & Verification
 
 To run the main application script:
 
@@ -85,7 +90,8 @@ Or execute directly with Node.js:
 node index.js
 ```
 
-**Expected Output:**
+### Verification
+When executed, the system outputs the setup confirmation message:
 ```text
 FlyRank AI Capstone setup completed successfully!
 ```
@@ -115,7 +121,7 @@ git commit -m "feat: initialize FlyRank capstone repository"
 
 - **AI Assistant**: Antigravity AI (Google DeepMind)
 - **Role**: AI Coding Assistant & Architectural Reviewer
-- **Contributions**: Automated project setup, standard guideline documentation (`CLAUDE.md`), README design, and AI code reviews.
+- **Contributions**: Automated project setup, standard guideline documentation (`CLAUDE.md`), README design, AI code review, and automated README enhancement.
 
 ---
 
