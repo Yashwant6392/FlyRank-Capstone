@@ -94,3 +94,73 @@ When assisting or generating code for this repository:
 - Keep dependencies lean and minimal.
 - Ensure all created files contain clear inline docstrings where applicable.
 - Test terminal commands before documenting them.
+---
+
+# 9. Project-Specific Rules (Learned During FE-03)
+
+These rules were established while building the Settings Form feature.
+
+## Rule 1 — Semantic Forms
+
+Always use semantic HTML form elements.
+Every input must have a corresponding `<label>`.
+
+---
+
+## Rule 2 — Validation Before Submission
+
+Never allow the form to submit if validation fails.
+
+Required validation:
+
+- Name cannot be empty.
+- Email must be valid.
+- Password must contain at least 8 characters.
+- Confirm Password must match Password.
+
+---
+
+## Rule 3 — Inline Error Messages
+
+Validation errors should appear directly below the related input field.
+
+Do not use browser alert boxes for validation.
+
+---
+
+## Rule 4 — Accessibility
+
+Every form element must be keyboard accessible.
+
+Always provide:
+
+- Labels
+- Focus states
+- Proper input types
+- Accessible error messages
+
+---
+
+## Rule 5 — Responsive Design
+
+The UI must work correctly on:
+
+- Desktop
+- Tablet
+- Mobile
+
+without horizontal scrolling.
+
+---
+
+## Rule 6 — AI Verification Workflow
+
+Before accepting AI-generated code:
+
+1. Review the implementation.
+2. Check for logical bugs.
+3. Test edge cases.
+4. Verify accessibility.
+5. Run the application before committing.
+
+Never merge AI-generated code without manual verification.
