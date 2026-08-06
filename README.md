@@ -2,42 +2,44 @@
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Commit Convention: Conventional](https://img.shields.io/badge/Conventional%20Commits-1.0.0-blue.svg)](https://www.conventionalcommits.org/)
-[![AI-Assisted](https://img.shields.io/badge/AI%20Assisted-Antigravity-purple.svg)](CLAUDE.md)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-blue.svg)](https://www.conventionalcommits.org/)
+[![AI Assisted](https://img.shields.io/badge/AI%20Assisted-Antigravity-purple.svg)](CLAUDE.md)
 
-> **FlyRank AI Internship Capstone Project**  
-> A professional Node.js foundation project demonstrating AI-assisted development, clean Git workflows, and modern software engineering practices.
-
----
-
-## Project Description
-
-FlyRank-Capstone is a foundational project created for the **FlyRank AI Internship – Phase 1** assignment. It demonstrates professional project setup, AI-assisted development, Conventional Commits, and industry-standard repository organization.
+> **FlyRank AI Internship – Phase 1 Capstone Project**  
+> A foundational Node.js project demonstrating AI-assisted development, professional Git workflows, and modern software engineering best practices.
 
 ---
 
-## Objectives
+# Project Description
+
+This repository was created as part of the **FlyRank AI Internship Phase 1** assignment.
+
+The goal of this project is to establish a professional development environment using Node.js, Git, and AI-assisted development while following industry-standard software engineering practices.
+
+---
+
+# Objectives
 
 - Set up a professional Node.js development environment.
 - Create a clean and organized GitHub repository.
 - Practice AI-assisted software development.
 - Follow Conventional Commits for Git history.
-- Build a strong foundation for future project development.
+- Prepare a scalable foundation for future development.
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - **Runtime:** Node.js (v20 LTS)
 - **Language:** JavaScript (ES6+)
 - **Package Manager:** npm
 - **Version Control:** Git
-- **Editor:** Visual Studio Code
+- **IDE:** Visual Studio Code
 - **AI Assistant:** Antigravity AI
 
 ---
 
-## Folder Structure
+# Project Structure
 
 ```text
 FlyRank-Capstone/
@@ -52,15 +54,15 @@ FlyRank-Capstone/
 
 ---
 
-## Installation
+# Installation
 
-### Prerequisites
+## Prerequisites
 
-Ensure the following are installed:
+Ensure the following tools are installed:
 
 - Node.js (v20 LTS or later)
-- npm
 - Git
+- Visual Studio Code
 
 Check installation:
 
@@ -70,14 +72,18 @@ npm -v
 git --version
 ```
 
-### Clone Repository
+---
+
+## Clone Repository
 
 ```bash
 git clone https://github.com/Yashwant6392/FlyRank-Capstone.git
 cd FlyRank-Capstone
 ```
 
-### Install Dependencies
+---
+
+## Install Dependencies
 
 ```bash
 npm install
@@ -85,7 +91,7 @@ npm install
 
 ---
 
-## Usage
+# Usage
 
 Run the application:
 
@@ -107,55 +113,55 @@ FlyRank AI Capstone setup completed successfully!
 
 ---
 
-## Git Workflow
+# Git Workflow
 
-This project follows the **Conventional Commits** specification.
+This repository follows the **Conventional Commits** specification.
 
-### Example Commit Messages
+Example commit messages:
 
 ```bash
-git commit -m "feat: initialize FlyRank capstone repository"
-git commit -m "docs: add README and CLAUDE guide"
-git commit -m "docs: improve README after AI review"
+feat: initialize FlyRank capstone repository
+docs: add README and CLAUDE guide
+docs: improve README after AI review
 ```
 
 ---
 
-## AI Assistant Used
+# AI Assistant Used
 
 **Antigravity AI**
 
-Used for:
+The AI assistant was used for:
 
 - Project setup
 - Documentation generation
-- README review
-- Code assistance
-- Best practice recommendations
+- README improvements
 - Development guidance
+- Best practice recommendations
+- Code review assistance
 
 ---
 
-## Future Improvements
+# Future Improvements
 
 - Add automated unit testing using Jest.
 - Configure GitHub Actions for Continuous Integration (CI).
 - Integrate ESLint and Prettier.
-- Add environment variable support using `.env`.
-- Expand the project into a complete AI-powered application.
+- Add environment variable support.
+- Expand into a complete AI-powered application.
 
 ---
 
-## Author
+# Author
 
 **Yashwant Kumar**
 
-- GitHub: https://github.com/Yashwant6392
+GitHub: https://github.com/Yashwant6392
 
 ---
 
-## License
+# License
 
 This project is licensed under the **MIT License**.
 
-See the [LICENSE](LICENSE) file for more information.
+See the [LICENSE](LICENSE) file for more details.

@@ -14,24 +14,6 @@
     "internship",
     "nodejs"
   ],
-  "author": "FlyRank AI Intern",
-  "license": "MIT"
-}{
-  "name": "flyrank-capstone",
-  "version": "1.0.0",
-  "description": "FlyRank AI Internship Phase 1 Capstone Project",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"No tests specified\" && exit 0"
-  },
-  "keywords": [
-    "flyrank",
-    "ai",
-    "capstone",
-    "internship",
-    "nodejs"
-  ],
   "author": "Yashwant Kumar",
   "license": "MIT"
 }
