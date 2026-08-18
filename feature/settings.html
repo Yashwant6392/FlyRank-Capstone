@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card" aria-labelledby="settings-title">
+      <div class="card-header">
+        <h1 id="settings-title">Settings</h1>
+        <p class="intro">Manage your profile preferences.</p>
+      </div>
+
+      <form id="settingsForm" novalidate>
+        <div class="field">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" autocomplete="name" required aria-describedby="fullNameError">
+          <p class="error" id="fullNameError" role="alert"></p>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="emailError">
+          <p class="error" id="emailError" role="alert"></p>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" autocomplete="new-password" required aria-describedby="passwordError">
+          <p class="error" id="passwordError" role="alert"></p>
+        </div>
+
+        <div class="field">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" autocomplete="new-password" required aria-describedby="confirmPasswordError">
+          <p class="error" id="confirmPasswordError" role="alert"></p>
+        </div>
+
+        <div class="field">
+          <label for="theme">Theme</label>
+          <select id="theme" name="theme" required aria-describedby="themeError">
+            <option value="">Select theme</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="system">System</option>
+          </select>
+          <p class="error" id="themeError" role="alert"></p>
+        </div>
+
+        <div class="checkbox-field">
+          <input type="checkbox" id="notifications" name="notifications">
+          <label for="notifications">Receive notifications</label>
+        </div>
+
+        <div id="formMessage" class="message" role="status" aria-live="polite"></div>
+
+        <button type="submit" id="saveButton" disabled>Save Settings</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
